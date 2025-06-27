@@ -1,0 +1,30 @@
+body {
+    background: linear-gradient(to right, #fbc2eb, #a6c1ee);
+    font-family: 'Courier New', monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    margin: 0;
+  }
+  
+  .container {
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 2em;
+    color: #333;
+  }
+  
+  .message {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #555;
+  }
+  
+  .hidden {
+    opacity: 0;
+    transition: opacity 1.5s ease;
+  }
