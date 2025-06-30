@@ -1,5 +1,5 @@
 const params = new URLSearchParams(window.location.search);
-const name = params.get("to") || "MEGHA";
+
 
 const text = `This is for you, ${name} 💌`;
 let index = 0;
